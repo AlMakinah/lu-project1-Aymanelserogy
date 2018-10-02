@@ -1,0 +1,34 @@
+.icon{
+	margin-left: 1px;
+	margin-right: 5px;
+	font-size: 12px;
+	vertical-align: text-bottom;
+	margin-bottom: 2px;
+}
+.comment{
+	display: inline-block;
+	margin: 0;
+	width: 12px;
+	height: 10px;
+	background-image: url("../../images/icons/com.png");
+	background-size: contain;
+	background-position: center;
+}
+.seen{
+	display: inline-block;
+	margin: 0;
+	width: 16px;
+	height: 10px;
+	background-image: url("../../images/icons/seen.png");
+	background-size: contain;
+	background-position: center;
+}
+.love{
+	display: inline-block;
+	margin: 0;
+	width: 12px;
+	height: 10px;
+	background-image: url("../../images/icons/love.png");
+	background-size: contain;
+	background-position: center;
+}
