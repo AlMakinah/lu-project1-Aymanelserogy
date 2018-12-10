@@ -1,0 +1,43 @@
+.designers__info{
+    display: flex;
+    justify-content: space-between;
+}
+.designers__info-wrapper{
+    display:flex;
+    padding:20px;
+}
+.designers__info-avatar{
+    width:80px;
+    margin-right:10px;
+    display:inline-block;
+}
+.designers__info-avatar img{
+    border-radius:50px;
+}
+.designers__info-name{
+    font-size:13px;
+}
+.designers__info-loctaion{
+    font-size:11px;
+    color:#AAAAAA;
+}
+.designers__info-email{
+    font-size:13px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.designers__work{
+    display: flex;
+    flex-direction: row;
+}

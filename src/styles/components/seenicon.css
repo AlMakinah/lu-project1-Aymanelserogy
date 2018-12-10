@@ -1,0 +1,12 @@
+.seen{
+    display: inline-block;
+}
+
+.seen__button{
+    background-color: transparent;
+}
+
+.seen__times{
+    color: black;
+    font-size: inherit;
+}

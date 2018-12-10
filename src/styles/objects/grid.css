@@ -1,0 +1,58 @@
+.container{
+	max-width: 1000px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.portal__container{
+	max-width: 640px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.create__container{
+	max-width: 480px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.row > .col {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.row--4 > .col {
+	width: 25%;
+}
+
+
+.row--3 > .col {
+	width: 66.66%;
+  padding-left: 10px;
+}
+
+.row--3 > .col-2 {
+  width: 33.33%;
+	float: left;
+	padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}

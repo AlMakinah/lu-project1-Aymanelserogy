@@ -1,0 +1,13 @@
+.signHeader{
+    display: inline-block;
+
+  }
+  .signHeader__ul-li{
+    display: inline-block;
+    margin-inline-end: 10px;
+    color: #AAAAAA;
+  }
+
+  .signHeader__ul-li:hover{
+    color: rgb(99, 99, 99);
+  }

@@ -1,0 +1,39 @@
+/*settings*/
+@import 'styles/settings/grid.css';
+
+/*generic*/
+@import 'styles/generic/boxSizing.css';
+@import 'styles/generic/typograohy.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800');
+
+/*elements*/
+@import 'styles/elements/anchor.css';
+
+/* object */
+@import 'styles/objects/grid.css';
+@import 'styles/objects/icons.css';
+@import 'styles/objects/spinner.css';
+
+/*components*/
+@import 'styles/components/card.css';
+@import 'styles/components/signin.css';
+@import 'styles/components/seenicon.css';
+@import 'styles/components/button.css';
+@import 'styles/components/search.css';
+@import 'styles/components/pinkSignButton.css';
+@import 'styles/components/headerNavBar.css';
+@import 'styles/components/photosUrl.css';
+@import 'styles/components/dribblePort.css';
+@import 'styles/components/counter.css';
+@import 'styles/components/signportal.css';
+@import 'styles/components/clearSIgnIn.css';
+@import 'styles/components/commentIcon.css';
+@import 'styles/components/createAccount.css';
+@import 'styles/components/designers.css';
+@import 'styles/components/footer.css';
+@import 'styles/components/loveIcon.css';
+@import 'styles/components/header.css';
+
+/* FontAwesome Icons */
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css');

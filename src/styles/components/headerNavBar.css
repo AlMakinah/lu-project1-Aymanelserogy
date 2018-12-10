@@ -1,0 +1,16 @@
+.nav{
+    display: inline-block;
+}
+.navBar__ul-li{
+    display: inline-block;
+    margin-inline-end: 10px;
+    color: #AAAAAA;
+  }
+  .navBar__ul-li:hover{
+    color: rgb(99, 99, 99);
+  }
+
+  .navBar__ul-li a{
+    color: inherit;
+    text-decoration: none;
+  }

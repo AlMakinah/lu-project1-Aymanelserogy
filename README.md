@@ -1,41 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Dribble/loremPicsum like website built by REACT
 
-## Available Scripts
+This is a React website, presents  images
+---
+installation
+---
+first excute
+```javascript
+$ npm install
+```
+dependencies used
 
-In the project directory, you can run:
+| Dependencies     | Version       |
+| -------------    |:-------------:|
+| react            | ^16.6.3       |
+| react-dom        | ^16.6.3       |
+| react-redux      | ^6.0.0        |
+| react-router-dom | ^4.3.1        |
+| react-scripts    | 2.1.1     	   |
+| redux            | ^4.0.1        |
 
-### `npm start`
-
-Runs the app in the development mode.<br>
+make sure that you have react and redux installed in your developer tools then excute
+```javascript
+$ npm start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+what does the site do
+---
+The header contains a virsual search bar,
+in addition to a Nav bar to navigate through the different pages of the website,
+two links for signin and signup which are pressable to display the registering and sigining in forms and also the same display is activated by the two buttons at footer.
 
-### `npm test`
+The landing page reffered to as dribbles in the nav bar in the header,
+displays multiple frames posted,
+each frame can be diplayed by either clicking on the picture or on the comment icon,
+or liked ,  once the portal opens it is considered seen.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The displayed image in the portal can be saved of which will be reflected in the count in the header
 
-### `npm run build`
+The Designers page represents a list of disgners got from the API below,and a row of images represented got from lorem picsum
+```javascript
+https://randomuser.me/api/?results=10
+```
+The urls page representing the urls of which can be used to get different pictures and above all the urls, there is a rated picture representation of which changed randomly through the press of a button
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+css
+---
+The approch of CSS used was inverted triangle css
+Class names was based as much as possible on BEM--(Block Elemnet Modifier) methodology,
+elements that used if conditions in css only were done inline
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Redux
+---
+Redux was used to tie the save button with the counter in the header of which represents the length of the array of the saved images
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Raect-Router-Dom
+---
+Raect-Router-Dom was used to be able to navigate through the pages
 
-### `npm run eject`
+Notes
+---
+The application contains three Portals
+CSS was built from scratch
+FontAwsome were used for icons
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 

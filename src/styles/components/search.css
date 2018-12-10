@@ -1,0 +1,12 @@
+.search{
+    display: inline-block;
+  }
+.search input{
+    height: 25px;
+    background-color:#AAAAAA;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
