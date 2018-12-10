@@ -24,6 +24,7 @@
 /* elements */
 @import 'elements/body.css';
 @import 'elements/anchor.css';
+@import 'elements/pop-body.css';
 
 
 
@@ -47,4 +48,5 @@
 
 /* utilities */
 @import 'utilities/scr-reader.css';
+@import 'lity/dist/lity.css'
 

@@ -2,10 +2,10 @@ section.container
 	h1 Dribbles
 	-const n=["images/cardimage/recy.png","images/cardimage/recv.png","images/cardimage/recx.png","images/cardimage/recz.png","images/cardimage/rec.jpg"]
 	-const z=["The bear as we see likes honey","This is maps of some road","2 deers just before they were hunted","A smiling card","the robot friend i forgot about"]
-	.row.row--4
+	.landingPage__grid
 		- for (var j = 0; j < 4; j++) {
 			- for (var i = 0; i < 5; i++) {
-			.asp.col
+			.asp
 				.card
 					.card__hover
 						img(src= n[i] class="card__media")
@@ -27,6 +27,6 @@ section.container
 							span.icon: a(href='#') 3
 							p.visually-hidden times
 				p: a(href='#').card__author_avatar
-					span: a(href='popup.html').card__author_name someone
+					span: a(href='popup.html' data-lity).card__author_name someone
 			- }
 		- }
