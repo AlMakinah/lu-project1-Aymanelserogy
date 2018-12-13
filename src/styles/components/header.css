@@ -1,29 +1,9 @@
 .header{
-	background-color: #343434;
-	color: #bbb;
-	height: 40px;
-	padding-top: 10px;
-}
-.header__form{
-	display: inline-block;
-}
-.header__list{
-	list-style-type: none;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-}
-
-.header__list li{
-	display: inline-block;
-	margin-left: 5px;
-}
-.header__sign{
-	display: inline-block;
-	text-align: center;
-}
-.header__sign p{
-	margin: 0;
-	display: inline-block;
-	margin-left: 10px;
+    background-color: #333333;
+    height: 40px;
+    line-height: 40px;
+  }
+.counterSign{
+    display:flex;
+    justify-content:center;
 }

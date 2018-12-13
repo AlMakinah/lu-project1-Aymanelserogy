@@ -1,0 +1,20 @@
+.donutWrapper{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right:15px;
+}
+
+.donutIcon{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.donutCounter{
+    display: inline-flex;
+    width: 40px;
+    height: 25px;
+    background-color:#AAAAAA;
+    justify-content: center;
+    align-items: center;
+
+}

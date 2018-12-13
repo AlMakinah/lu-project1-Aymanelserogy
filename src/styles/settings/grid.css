@@ -1,4 +1,7 @@
-:root{
-	--gutter:10px;
-	--grid-container:1000px;
+.space{
+    margin: 10px;
+}
+
+.center{
+    text-align: center;
 }

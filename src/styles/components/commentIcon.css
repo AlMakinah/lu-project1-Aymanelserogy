@@ -1,0 +1,12 @@
+.commentIcon{
+    display:inline-block;
+}
+
+.commentIcon button{
+    background-color: transparent;
+}
+
+.commentIcon button > span{
+    color: black;
+    font-size: inherit;
+}

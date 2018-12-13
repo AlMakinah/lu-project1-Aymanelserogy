@@ -1,0 +1,11 @@
+.icon__wrapper{
+    display: inline-block;
+}
+.icon__button{
+    background-color: transparent;
+}
+
+.icon__score{
+    color:black;
+    font-size:inherit;
+}

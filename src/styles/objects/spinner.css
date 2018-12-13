@@ -1,0 +1,19 @@
+.spinnerWrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .spinner {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    border: 2px solid darkred;
+    border-top: 2px solid whitesmoke;
+    border-radius: 99px;
+    animation: 300ms spin infinite ease-in-out;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(359deg);
+    }
+  }
