@@ -4,6 +4,7 @@ import Main from './landingPage';
 import Dpage from './designersPa';
 import GeneresPage from './generesPage';
 import { Route,  BrowserRouter as Router } from 'react-router-dom'
+
 class App extends Component {
   render() {
     return (

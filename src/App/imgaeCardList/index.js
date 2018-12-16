@@ -26,6 +26,16 @@ class ImageList extends React.Component{
             "https://picsum.photos/600/300/?image=600",
             "https://picsum.photos/600/300/?image=700"
         ],
+        dis:[
+            "An office setting",
+            "Little grey beach mode",
+            "Country side nature",
+            "Like that Monet painting",
+            "The nature of a forest",
+            "The city",
+            "Sun breaking through",
+            "Blue Sea "
+        ]
     }
 
     render(){
@@ -35,7 +45,7 @@ class ImageList extends React.Component{
             <div className={'card__wrapper'}>
                 {this.state.imgs.map((pic,index)=>{
                   return (
-                            <Card  pic= {pic} key={index} imbs={this.state.imbs[index]}/>
+                            <Card  pic= {pic} key={index} imbs={this.state.imbs[index]} dis={this.state.dis[index]}/>
                         )
                 })}
             </div>

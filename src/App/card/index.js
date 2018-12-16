@@ -59,7 +59,7 @@ class Card extends Component {
                                     src= {this.props.pic}
                                     alt="The GodFather"
                                 />
-                                <p className="card__title">The GodFather</p>
+                                <p className="card__title">{this.props.dis}</p>
                             </div>
                             <div>
                                 <Seen seen={this.state.seen}/>

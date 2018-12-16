@@ -13,6 +13,7 @@
 @import 'styles/objects/grid.css';
 @import 'styles/objects/icons.css';
 @import 'styles/objects/spinner.css';
+@import 'styles/objects/responcive.css';
 
 /*components*/
 @import 'styles/components/card.css';
