@@ -16,7 +16,7 @@ activatePort= ()=>{
     render(){
         return(
             <>
-                <p onClick={this.activatePort} style={{display:'inline-block'}}><i className="fas fa-chevron-circle-down"></i></p>
+                <span onClick={this.activatePort} ><i className="fas fa-chevron-circle-down"></i></span>
                 <DropPort
                 visibility={this.state.portActive}
                 onClose={()=>this.setState({portActive:false})}

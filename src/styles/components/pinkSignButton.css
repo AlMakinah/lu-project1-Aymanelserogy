@@ -1,7 +1,20 @@
-.pinkSign__button{
-    width:450px;
-    height:40px;
-    background-color: #E84F89;
-    font-style:bold;
-    font-size:13px;
+@media  (min-width:450px){
+    .pinkSign__button{
+        width:450px;
+        height:40px;
+        background-color: #E84F89;
+        font-style:bold;
+        font-size:13px;
+    }
+    }
+
+
+@media  (max-width:450px){
+    .pinkSign__button{
+        width:50px;
+        height:40px;
+        background-color: #E84F89;
+        font-style:bold;
+        font-size:13px;
+    }
 }

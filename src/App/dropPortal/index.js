@@ -17,8 +17,8 @@ class  DropPort extends React.Component{
                 <>
                     {this.props.visibility ?
                         <>
-                            <div style={{position:'absolute', top:'6%',backgroundColor:'#F4F4F4', width:'100%',zIndex:'1000'}}>
-                                <div style={{textAlign:'center'}} >
+                            <div className={'dropPortal__position'}>
+                                <div className={'dropPortal__wrapper'} >
                                     <nav className="navBar" >
                                         <ul className="navBar__ul">
                                             <li className="navBar__ul-li">

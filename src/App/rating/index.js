@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 class Rate extends React.Component{
 
-  static PropTypes={
+  static propTypes={
     rate: PropTypes.number
   }
   state={

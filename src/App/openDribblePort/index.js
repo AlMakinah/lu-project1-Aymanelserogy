@@ -17,6 +17,7 @@ static propTypes={
     visibile: PropTypes.bool,
     onClose: PropTypes.func,
     imgs: PropTypes.string,
+    imdb: PropTypes.string,
     loved:PropTypes.number
 
 }
@@ -25,8 +26,7 @@ static defaultProps={
     visibile:false,
     onClose: ()=> null,
     imgs: '',
-
-
+    imdb:''
 }
 state={
     comment:[],
@@ -60,7 +60,6 @@ render(){
                     {this.props.visibile ?
                         <>
                             <div className='dribblePortal' >
-                            {console.log(store.getState())}
                                 <div className={'dribblePortal__header'}>
                                     <div className={'dribblePortal__header-author'}>
                                         <div className={'dribblePortal__header-authorAvatar'}>
@@ -87,7 +86,8 @@ render(){
                                 </div>
                                 <div className={'dribblePortal__mainImage'}>
                                     <div className={'dribblePortal__mainImage-wrapper'} >
-                                        <img src={this.props.imgs} alt='a frame'/>
+                                        <img className='minimizingHide' src={this.props.imgs} alt='a frame'/>
+                                        <img className='originalHide' src={this.props.imdb} alt='a frame'/>
                                     </div>
                                 </div>
                                 <div className='portal__container'>

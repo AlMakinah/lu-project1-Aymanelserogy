@@ -1,5 +1,4 @@
 .sign__Portal{
-    width:480px;
     background-color: transparent;
     position: absolute;
     top: 2%;
@@ -36,13 +35,11 @@
 }
 
 .sign__Portal-formBody p{
-    width:250px;
     color:white;
     font-style:bold;
     font-size:13px;
 }
 .sign__Portal-formBody div > input{
-    width:250px;
     height:30px;
     background-color: navajowhite;
     color:black;
@@ -52,7 +49,6 @@
     margin-bottom:15px;
 }
 .sign__Portal-formBody  button{
-    width:250px;
     height:30px;
     background-color: #E84F89;
     color:white;
@@ -74,3 +70,43 @@
     background: rgba(51, 51, 51, 0.8);
     z-index: 999;
   }
+
+  @media  (min-width:500px){
+    .sign__Portal{
+        width:480px;
+    }
+    .sign__Portal-formBody p{
+        width:250px;
+    }
+    .sign__Portal-formBody div > input{
+               width:250px;
+    }
+    .sign__Portal-formBody  button{
+        width:250px;
+    }
+}
+
+
+@media  (max-width:500px){
+    .sign__Portal{
+        width:280px;
+        }
+    .sign__Portal-formBody  button{
+        width:170px;
+    }
+}
+
+@media  (max-width:250px){
+    .sign__Portal{
+        width:140px;
+    }
+    .sign__Portal-formBody p{
+        width:120px;
+        }
+    .sign__Portal-formBody div > input{
+           width:120px;
+    }
+    .sign__Portal-formBody  button{
+        width:120px;
+    }
+}

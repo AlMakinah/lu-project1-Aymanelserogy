@@ -38,7 +38,7 @@ static propTypes={
                                           />
                                       </div>
                                   </div>
-                                  <hr/>
+                                  <hr className='minimizingHide'/>
                                 </div>
                           ))}
                     </div>

@@ -59,7 +59,12 @@ class Card extends Component {
                                     src= {this.props.pic}
                                     alt="The GodFather"
                                 />
-                                <p className="card__title">{this.props.dis}</p>
+                                <p
+                                    onClick={this.handleDribblePort.bind(this)}
+                                    className="card__title"
+                                >
+                                    {this.props.dis}
+                                </p>
                             </div>
                             <div>
                                 <Seen seen={this.state.seen}/>
@@ -72,6 +77,7 @@ class Card extends Component {
                             visibile= {this.state.portVis}
                             onClose={()=>{this.setState({portVis:false})}}
                             imgs={this.props.imbs}
+                            imdb={this.props.pic}
                             active={this.state.active}
                             seen={this.state.seen}
                             loved={this.state.loved}

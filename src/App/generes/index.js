@@ -61,10 +61,15 @@ class Generes extends React.Component{
                             <p>https://picsum.photos/495/400</p>
                         </div>
                     </div>
-                    <div className={'photo'}>
+                    <div>
                         <div className={'photo__avatar'}>
-                            <img
+                            <img className='minimizingHide'
                                 src= 'https://picsum.photos/495/400'
+                                alt="Basic Frame"
+                            />
+                            <img
+                                className='originalHide'
+                                src= 'https://picsum.photos/200/150'
                                 alt="Basic Frame"
                             />
                         </div>
@@ -81,7 +86,13 @@ class Generes extends React.Component{
                     <div className={'photo'}>
                         <div className={'photo__avatar'}>
                             <img
+                                className='minimizingHide'
                                 src= {`https://picsum.photos/496/400/?image=${this.state.random}`}
+                                alt="Random Frame"
+                            />
+                            <img
+                                className='originalHide'
+                                src= {`https://picsum.photos/200/150/?image=${this.state.random}`}
                                 alt="Random Frame"
                             />
                         </div>
@@ -98,7 +109,13 @@ class Generes extends React.Component{
                     <div className={'photo'}>
                         <div className={'photo__avatar'}>
                             <img
+                                className='minimizingHide'
                                 src= 'https://picsum.photos/g/495/400'
+                                alt="grey Frame"
+                            />
+                            <img
+                                className='originalHide'
+                                src= 'https://picsum.photos/g/200/150'
                                 alt="grey Frame"
                             />
                         </div>
@@ -115,7 +132,13 @@ class Generes extends React.Component{
                     <div className={'photo'}>
                         <div className={'photo__avatar'}>
                             <img
+                                className='minimizingHide'
                                 src= 'https://picsum.photos/495/400/?image=0'
+                                alt="Specific Frame"
+                            />
+                            <img
+                                className='originalHide'
+                                src= 'https://picsum.photos/200/150/?image=0'
                                 alt="Specific Frame"
                             />
                         </div>
@@ -132,7 +155,13 @@ class Generes extends React.Component{
                     <div className={'photo'}>
                         <div className={'photo__avatar'}>
                             <img
+                                className='minimizingHide'
                                 src= 'https://picsum.photos/495/400/?blur'
+                                alt="Blurred Frame"
+                            />
+                            <img
+                                className='originalHide'
+                                src= 'https://picsum.photos/200/150/?blur'
                                 alt="Blurred Frame"
                             />
                         </div>
